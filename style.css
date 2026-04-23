@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1576815837205-07349c6016e1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calc{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.409);
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: rgba(240, 248, 255, 0.11);
+    backdrop-filter: BLUR(30px);
+    border-radius: 40px;
+    padding:10px;
+}
+.calc form input{
+    align-items: center;
+    border: 0;
+    outline: none;
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.072);
+    border-radius: 30px;
+    color: rgb(227, 255, 255);
+    background-color: rgba(127, 255, 212, 0.184);
+    box-shadow: 0 0 8px rgba(3, 74, 57, 0.414);
+    transition: 0.3s;
+}
+
+.calc form input:hover{
+    background-color: rgba(0, 255, 255, 0.7);
+    box-shadow: 0px 0px 10px rgba(0, 207, 200, 0.834);
+}
+
+#display{
+    height: 80px;
+    width: 265px;
+    font-size: 25px;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 255, 183, 0.287);
+}
+#display:hover{
+    box-shadow: none;
+}
+#Delete{
+    background-color: rgba(255, 170, 0, 0.389);
+}
+#Delete:hover{
+    background-color: rgba(255, 187, 0, 0.7);
+    box-shadow: 0px 0px 8px rgb(198, 148, 0);
+}
+#equal{
+    width: 123px;
+    background-color: rgba(0, 255, 136, 0.287);
+}
+#equal:hover{
+    background-color: rgba(0, 255, 136, 0.7);
+    box-shadow: 0px 0px 8px rgb(0, 173, 92);
+}
