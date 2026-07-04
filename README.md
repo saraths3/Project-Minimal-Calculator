@@ -1,6 +1,6 @@
 # Minimal Calculator
 
-##A simple **glassmorphism style calculator** built using **HTML and CSS**.
+## A simple **glassmorphism style calculator** built using **HTML and CSS**.
 https://saraths3.github.io/Project-Minimal-Calculator/
 
 ## Preview
